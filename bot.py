@@ -1,6 +1,12 @@
+import telebot
+
+#BOT_TOKEN = "5192874877:AAHE4es-_5QUfvCvR2Mxj3qcaX5YrQiixjI"
+
+#a = Bot(token="5192874877:AAHE4es-_5QUfvCvR2Mxj3qcaX5YrQiixjI")
+from telebot import types
+import requests
 
 a = telebot.TeleBot("5192874877:AAHE4es-_5QUfvCvR2Mxj3qcaX5YrQiixjI")
-
 
 @a.message_handler(commands=['start'])
 def startWork(message):
